@@ -74,11 +74,11 @@ OK
 Khusus Hotspot jika client ip address-nya ingin dibuat static
 -------------------------------------------------------------
 
-Dikondisikan sudah dibuat hotspot beserta user-nya, maka ikuti langkah di bawah ini
+Dikondisikan sudah dibuat hotspot beserta user-nya, maka ikuti langkah di bawah ini.
 
 IP -> Hotspot -> Users
 
-Pilih user yang akan dibuat static ip-nya agar bisa mudah diketahui siapa pengguna suatu IP di log
+Pilih user yang akan dibuat static ip-nya agar bisa mudah diketahui siapa pengguna suatu IP di log.
 
 Hotspot User
 ------------
