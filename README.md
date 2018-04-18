@@ -53,9 +53,7 @@ System -> Logging -> Rules -> +
 Rules
 ----- 
 
-Topics: Web-proxy (arah panah ke bawah di klik)
-
-        !Debug
+Topics: Web-proxy (arah panah ke bawah di klik) lalu !Debug
         
 Prefix dikosongkan
 
@@ -88,7 +86,7 @@ Hilangkan tanda # pada modul(load="imtcp")
 
 Hilangkan tanda # pada input(type-"imtcp" port="514")
 
-Tambahkan : :fromhost-ip,isequal,"ipgatewaymikrotik" /var/log/mikrotik.log
+Tambahkan agar masuk di /var/log/mikrotik.log : :fromhost-ip,isequal,"ipgatewaymikrotik" /var/log/mikrotik.log
 
 Kurniawan
 
