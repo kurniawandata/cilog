@@ -118,7 +118,7 @@ Isi username dan password database yang digunakan lalu simpan
 Mengakses Cilog
 ---------------
 
-http://ip address web/cilog/
+Langsung buka alamat http://(ipaddressweb)/cilog
 
 
 Program cilog dan tutorial ini dibuat oleh :
