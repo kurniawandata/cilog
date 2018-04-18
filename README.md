@@ -71,6 +71,27 @@ Action: Action1
 
 OK
 
+Khusus Hotspot jika client ip address-nya ingin dibuat static
+-------------------------------------------------------------
+
+Dikondisikan sudah dibuat hotspot beserta user-nya, maka ikuti langkah di bawah ini
+
+IP -> Hotspot -> Users
+
+Pilih user yang akan dibuat static ip-nya agar bisa mudah diketahui siapa pengguna suatu IP di log
+
+Hotspot User
+------------
+
+General
+------- 
+
+Address: Ip address yang ingin digunakan saat login
+
+OK
+
+Keterangan : Saat user tersambung nanti akan terdeteksi ip dari bawaan DHCP Server, tapi saat client browsing nanti IP static yang diset itu yang tercatat.
+
 Installasi dan konfigurasi untuk mendukung disimpannya log pada database mysql
 ------------------------------------------------------------------------------
 
@@ -115,7 +136,7 @@ cd /var/www/html/cilog
 
 nano mikrolog.php
 
-Ganti username dan password database, sesuaikan dengan username dan password database yang anda gunakan lalu simpan
+Ganti username dan password database, sesuaikan dengan username dan password database yang anda gunakan lalu simpan.
 
 Mengakses Cilog
 ---------------
