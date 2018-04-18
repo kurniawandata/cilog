@@ -112,7 +112,7 @@ git clone https://github.com/kurniawandata/cilog.git
 Mengakses Cilog
 ---------------
 
-http://iplinux/cilog.html
+http://iplinux/cilog/cilog.html
 
 
 Program cilog dan tutorial ini dibuat oleh :
