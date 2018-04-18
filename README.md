@@ -144,6 +144,12 @@ Mengakses Cilog
 Langsung buka alamat http://(ipaddressweb)/cilog
 
 
+LICENSI
+------- 
+
+GNU General Public License 
+
+
 Program cilog dan tutorial ini dibuat oleh :
 --------------------------------------------
 
