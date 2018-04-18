@@ -109,6 +109,12 @@ cd /var/www/html
 
 git clone https://github.com/kurniawandata/cilog.git
 
+cd /var/www/html/cilog
+
+nano mikrolog.php
+
+Isi username dan password database yang digunakan lalu simpan
+
 Mengakses Cilog
 ---------------
 
