@@ -27,6 +27,10 @@ To Ports: 8080
 
 OK
 
+
+Setelah di atas selesai maka aktifkan proxy
+-------------------------------------------
+
 IP -> Web Proxy
 
 General
@@ -35,10 +39,13 @@ Enabled dicentang
 
 OK
 
-System -> Logging -> Actions -> +
+Mengaktifkan LOG agar bisa dikirimkan ke linux ubuntu
+-----------------------------------------------------
+
 
 Log Action
 ---------- 
+System -> Logging -> Actions -> +
 
 Name: Action1
 
@@ -47,6 +54,9 @@ Type: remote
 Remote Address: ip addresss linux ubuntu
 
 OK
+
+Log Rule
+--------
 
 System -> Logging -> Rules -> +
 
@@ -60,6 +70,10 @@ Prefix dikosongkan
 Action: Action1
 
 OK
+
+Installasi dan konfigurasi untuk mendukung disimpannya log pada database mysql
+------------------------------------------------------------------------------
+
 
 Ubuntu 16.04.4 LTS
 ------------------
@@ -87,6 +101,22 @@ Hilangkan tanda # pada modul(load="imtcp")
 Hilangkan tanda # pada input(type-"imtcp" port="514")
 
 Tambahkan agar masuk di /var/log/mikrotik.log : :fromhost-ip,isequal,"ipgatewaymikrotik" /var/log/mikrotik.log
+
+Memasukkan cilog ke web server
+------------------------------
+
+cd /var/www/html
+
+git clone https://github.com/kurniawandata/cilog.git
+
+Mengakses Cilog
+---------------
+
+http://iplinux/cilog.html
+
+
+Program cilog dan tutorial ini dibuat oleh :
+--------------------------------------------
 
 Kurniawan
 
