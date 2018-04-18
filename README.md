@@ -1,5 +1,5 @@
 # cilog
-Program untuk membantu membuka log apa yang dibuka oleh client mikrotik router di database linux Ubuntu.
+Aplikasi untuk membantu membuka log apa yang dibuka oleh client mikrotik router di database linux Ubuntu.
 
 Konfigurasi di Mikrotik dan Linux Ubuntu
 ----------------------------------------
