@@ -118,8 +118,6 @@ http://iplinux/cilog/cilog.html
 Program cilog dan tutorial ini dibuat oleh :
 --------------------------------------------
 
-Kurniawan
-
-Kurniawanajazenfone@gmail.com
+Kurniawan. trainingxcode@gmail.com. 
 
 xcode.or.id
