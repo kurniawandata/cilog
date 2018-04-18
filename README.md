@@ -118,7 +118,7 @@ Isi username dan password database yang digunakan lalu simpan
 Mengakses Cilog
 ---------------
 
-http://iplinux/cilog/
+http://ip address web/cilog/
 
 
 Program cilog dan tutorial ini dibuat oleh :
