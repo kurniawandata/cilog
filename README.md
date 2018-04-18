@@ -100,7 +100,9 @@ Hilangkan tanda # pada modul(load="imtcp")
 
 Hilangkan tanda # pada input(type-"imtcp" port="514")
 
-Tambahkan agar masuk di /var/log/mikrotik.log : :fromhost-ip,isequal,"ipgatewaymikrotik" /var/log/mikrotik.log
+Tambahkan agar masuk di /var/log/mikrotik.log: 
+
+:fromhost-ip,isequal,"ipgatewaymikrotik" /var/log/mikrotik.log
 
 Memasukkan cilog ke web server
 ------------------------------
