@@ -115,7 +115,7 @@ cd /var/www/html/cilog
 
 nano mikrolog.php
 
-Isi username dan password database yang digunakan lalu simpan
+Ganti username dan password database, sesuaikan dengan username dan password database yang anda gunakan lalu simpan
 
 Mengakses Cilog
 ---------------
