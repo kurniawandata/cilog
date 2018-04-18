@@ -21,7 +21,7 @@ if (!$conn) {
 	  <tr>
 		<th>Tanggal & jam</th>
 		<th>IP Address</th>
-		<th align="left" width="100px">Web yang dibuka oleh client mikrotik</th>
+		<th align="left">Web yang dibuka oleh client mikrotik</th>
 	 </tr>
          </thead>
          <tbody>';
