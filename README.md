@@ -51,7 +51,7 @@ Name: Action1
 
 Type: remote
 
-Remote Address: ip addresss linux ubuntu (Posisi server adalah satu jaringan dengan client)
+Remote Address: ip addresss linux ubuntu (Posisi server berada di dalam satu jaringan dengan client)
 
 OK
 
