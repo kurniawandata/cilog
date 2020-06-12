@@ -11,7 +11,7 @@ $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$conn) {
    die ('Tidak bisa terkoneksi ke MySQL: ' . mysqli_connect_error()); 
    }
-   $sql = 'SELECT DeviceReportedTime, Message, SysLogTag FROM  SystemEvents ORDER BY DeviceReportedTime DESC';
+   $sql = 'SELECT ID,DeviceReportedTime ,Message FROM  SystemEvents ORDER BY DeviceReportedTime DESC';
    $query = mysqli_query($conn, $sql);
    if (!$query) {
       die ('SQL Error: ' . mysqli_error($conn));
@@ -29,8 +29,8 @@ if (!$conn) {
          while ($row = mysqli_fetch_array($query))
          {
 	 echo '<tr>
-	        <td>'.$row['ReceivedAt'].'</td>
-		<td>'.$row['DeviceReportedTime'].'</td>
+	        <td>'.$row['Nomor'].'</td>
+		<td>'.$row['Tanggal dan jam'].'</td>
 		<td class="right">'.$row['Message'].'</td>
 		</tr>';
         }
