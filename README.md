@@ -1,7 +1,7 @@
 # cilog
 Aplikasi PHP untuk membantu membuka log situs http apa yang dibuka oleh client mikrotik router yang ada di database linux Ubuntu.
 
-Demo video : https://drive.google.com/file/d/1cVT6_axb1F7rD_fq2_J1TTyy1LddYinx/view 
+Demo video : https://drive.google.com/file/d/1l9TI7BKxBAuli79Y_xiAqd2JiQvNNCmX/view
 
 Konfigurasi di Mikrotik dan Linux Ubuntu
 ----------------------------------------
