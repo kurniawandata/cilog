@@ -11,7 +11,7 @@ $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$conn) {
    die ('Tidak bisa terkoneksi ke MySQL: ' . mysqli_connect_error()); 
    }
-   $sql = 'SELECT ID,DeviceReportedTime,Message FROM  SystemEvents ORDER BY DeviceReportedTime DESC';
+   $sql = 'SELECT DeviceReportedTime,SysLogTag,Message FROM  SystemEvents ORDER BY DeviceReportedTime DESC';
    $query = mysqli_query($conn, $sql);
    if (!$query) {
       die ('SQL Error: ' . mysqli_error($conn));
