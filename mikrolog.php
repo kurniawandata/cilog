@@ -19,8 +19,8 @@ if (!$conn) {
      echo '<table border="1">
        	  <thead>
 	  <tr>
-		<th>ReceivedAt</th>
-		<th>DeviceReportedTime</th>
+		<th>Nomor</th>
+		<th>Tanggal dan jam</th>
 		<th align="left">Log dari mikrotik</th>
 	 </tr>
          </thead>
