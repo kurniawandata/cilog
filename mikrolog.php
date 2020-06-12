@@ -1,6 +1,6 @@
 <?php
 // oleh Kurniawan
-// trainingxcode@gmail.com
+// kurniawanajazenfone@gmail.com
 // xcode.or.id
 $dbhost = 'localhost'; 
 $dbuser = 'root'; 
@@ -11,7 +11,7 @@ $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$conn) {
    die ('Tidak bisa terkoneksi ke MySQL: ' . mysqli_connect_error()); 
    }
-   $sql = 'SELECT DeviceReportedTime, Message, SyslogTag FROM  SystemEvents ORDER BY DeviceReportedTime DESC';
+   $sql = 'SELECT DeviceReportedTime, Message, SysLogTag FROM  SystemEvents ORDER BY DeviceReportedTime DESC';
    $query = mysqli_query($conn, $sql);
    if (!$query) {
       die ('SQL Error: ' . mysqli_error($conn));
@@ -19,9 +19,9 @@ if (!$conn) {
      echo '<table border="1">
        	  <thead>
 	  <tr>
-		<th>Nomor</th>
-		<th>Tanggal dan jam</th>
-		<th align="left">Log dari mikrotik</th>
+		<th>Tanggal & jam</th>
+		<th>IP Address</th>
+		<th align="left" width="100px">Web yang dibuka oleh client mikrotik</th>
 	 </tr>
          </thead>
          <tbody>';
@@ -29,8 +29,8 @@ if (!$conn) {
          while ($row = mysqli_fetch_array($query))
          {
 	 echo '<tr>
-	        <td>'.$row['Nomor'].'</td>
-		<td>'.$row['Tanggal dan jam'].'</td>
+	        <td>'.$row['DeviceReportedTime'].'</td>
+		<td>'.$row['SysLogTag'].'</td>
 		<td class="right">'.$row['Message'].'</td>
 		</tr>';
         }
