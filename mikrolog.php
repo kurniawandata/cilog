@@ -21,7 +21,7 @@ if (!$conn) {
 	  <tr>
 		<th>Tanggal & jam</th>
 		<th>SysLogTag</th>
-		<th align="left" width="100px">Web yang dibuka oleh client mikrotik</th>
+		<th align="left" width="100px">Log dari mikrotik</th>
 	 </tr>
          </thead>
          <tbody>';
