@@ -19,9 +19,9 @@ if (!$conn) {
      echo '<table border="1">
        	  <thead>
 	  <tr>
-		<th>Tanggal & jam</th>
-		<th>IP Address</th>
-		<th align="left">Web yang dibuka oleh client mikrotik</th>
+		<th>ReceivedAt</th>
+		<th>DeviceReportedTime</th>
+		<th align="left">Log dari mikrotik</th>
 	 </tr>
          </thead>
          <tbody>';
@@ -29,8 +29,8 @@ if (!$conn) {
          while ($row = mysqli_fetch_array($query))
          {
 	 echo '<tr>
-	        <td>'.$row['DeviceReportedTime'].'</td>
-		<td>'.$row['SysLogTag'].'</td>
+	        <td>'.$row['ReceivedAt'].'</td>
+		<td>'.$row['DeviceReportedTime'].'</td>
 		<td class="right">'.$row['Message'].'</td>
 		</tr>';
         }
