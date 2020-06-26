@@ -169,3 +169,9 @@ Jika ingin donasi untuk Kurniawan
 ![alt text](http://xcodeserver.my.id/gofood.png)
 
 ![alt text](http://xcodeserver.my.id/gopay.png)
+
+Ovo :
+
+![alt text](http://xcodeserver.my.id/ovo3.png)
+
+![alt text](http://xcodeserver.my.id/ovo2.png)
