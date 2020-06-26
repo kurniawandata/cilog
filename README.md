@@ -151,7 +151,7 @@ Langsung buka alamat http://(ipaddressweb)/cilog
 LICENSI
 ------- 
 
-GNU General Public License 
+GNU General Public License v3
 
 
 Program cilog dan tutorial ini dibuat oleh :
