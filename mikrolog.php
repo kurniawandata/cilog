@@ -1,6 +1,6 @@
 <?php
 // oleh Kurniawan
-// kurniawanajazenfone@gmail.com
+// kurniawan@xcodetraining.com
 // xcode.or.id
 $dbhost = 'localhost'; 
 $dbuser = 'root'; 
