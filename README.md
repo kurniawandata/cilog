@@ -157,7 +157,7 @@ GNU General Public License v3
 Program cilog dan tutorial ini dibuat oleh :
 --------------------------------------------
 
-Kurniawan. kurniawan@xcodetraining.com. 
+Kurniawan. E-mail : kurniawan@securityhub.id
 
 xcode.or.id
 
